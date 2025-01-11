@@ -1,7 +1,7 @@
 .skills {
     font-family: 'Roboto Mono';
-    margin-left: 20px;
     margin-top: 50px;
+    margin-left: 20px;
 }
 
 .skills-item {
@@ -18,5 +18,5 @@
 
 .skills-logo:hover {
     height: 90px;
-    transform: scale(1.1); /* Adds a slight scale effect on hover */
+    transform: scale(1.1); 
 }
