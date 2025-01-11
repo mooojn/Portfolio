@@ -1,44 +1,47 @@
-.nav, .nav-items, .nav-items ul, .nav-items li {
+.nav,
+.nav-items,
+.nav-items ul,
+.nav-items li {
     background: white;
 
 }
 
 .logo {
-    height: 60px;
     cursor: pointer;
+    height: 60px;
 }
 
 .nav {
+    font-family: 'Consolas';
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 0 20px; 
-    font-family: Consolas;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); 
-    position: relative; 
-    z-index: 10; 
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 20px;
+    z-index: 10;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .nav-items {
-    flex-grow: 1; 
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .nav-items ul {
-    list-style: none;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
-    gap: 10px; 
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
     margin: 0;
     padding: 0;
 }
 
 .nav-items ul li {
     cursor: pointer;
+    padding: 30px;
     font-size: 20px;
-    padding: 30px; 
     transition: 0.1s ease-in-out;
 }
 
