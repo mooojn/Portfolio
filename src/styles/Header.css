@@ -1,0 +1,47 @@
+.nav, .nav-items, .nav-items ul, .nav-items li {
+    background: white;
+
+}
+
+.logo {
+    height: 60px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav items */
+    align-items: center; /* Vertically align items */
+    padding: 0 20px; /* Add padding for spacing */
+    font-family: Consolas;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); 
+    position: relative; 
+    z-index: 10; 
+}
+
+.nav-items {
+    flex-grow: 1; /* Makes nav-items take up the remaining space */
+    display: flex;
+    justify-content: center; /* Centers the nav items */
+}
+
+.nav-items ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items ul li {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 30px; 
+    transition: 0.1s ease-in-out;
+}
+
+.nav-items ul li:hover {
+    font-weight: bold;
+}
