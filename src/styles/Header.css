@@ -10,9 +10,9 @@
 
 .nav {
     display: flex;
-    justify-content: space-between; /* Space between logo and nav items */
-    align-items: center; /* Vertically align items */
-    padding: 0 20px; /* Add padding for spacing */
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
     font-family: Consolas;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); 
     position: relative; 
@@ -20,9 +20,9 @@
 }
 
 .nav-items {
-    flex-grow: 1; /* Makes nav-items take up the remaining space */
+    flex-grow: 1; 
     display: flex;
-    justify-content: center; /* Centers the nav items */
+    justify-content: center; 
 }
 
 .nav-items ul {
