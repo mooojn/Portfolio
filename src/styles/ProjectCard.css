@@ -1,9 +1,10 @@
 .project-card {
+    font-family: 'Barlow';
     display: flex;
     flex-direction: column;
     align-items: center; 
-    font-family: 'Barlow';
     gap: 10px; 
+    margin-top: 20px;
 }
 
 .project-img {
@@ -20,6 +21,7 @@
 .project-info {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .project-info img {
@@ -33,11 +35,14 @@
 }
 
 .project-highlights ul {
+    font-family: 'Kanit';
     list-style:disc;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .project-content h2 {
-    width: 250px;
+    font-size: 45px;
+    font-weight: 600;
+    width: 500px;
     margin-bottom: 20px;
 }
