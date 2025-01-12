@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import GitHubButton from 'react-github-btn'
 import gitIcon from '../assets/github-icon.png'
-
 import '../styles/ProjectCard.css'
 
 function ProjectCard({ info }) {
     const { image, logo, name, link, heading, highlights, description } = info;
-
+   
     return (
         <>
             <div className='project-card'>
-
+               
                 <img className='project-img' src={image} alt="" />
 
                 <div className='project-content'>
