@@ -1,22 +1,15 @@
-.skills {
-    font-family: 'Roboto Mono';
-    margin-top: 50px;
-    margin-left: 20px;
-}
-
-.skills-item {
+.skill-items {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 
-.skills-logo {
+.skill-logo {
     cursor: pointer;
     height: 80px;
     transition: 0.2s all ease-in-out;
 }
 
-.skills-logo:hover {
-    height: 90px;
+.skill-logo:hover {
     transform: scale(1.1); 
 }
