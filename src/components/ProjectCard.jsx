@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import '../styles/ProjectCard.css'
 
-function ProjectCard({ image, logo, siteName, heading, highlights, description }) {
+function ProjectCard({ info }) {
+    const { image, logo, name, heading, highlights, description } = info;
 
     return (
         <>
@@ -12,7 +13,7 @@ function ProjectCard({ image, logo, siteName, heading, highlights, description }
                 <div className='project-content'>
                     <div className='project-info'>
                         <img src={logo} alt="logo" />
-                        <h3>{siteName}</h3>
+                        <h3>{name}</h3>
                     </div>
 
                     <h2>{heading}</h2>
@@ -24,10 +25,10 @@ function ProjectCard({ image, logo, siteName, heading, highlights, description }
                                 <li key={index}>{value}</li>
                             ))}
                         </ul>
+
                     </div>
-
                     {/* white line here then description */}
-
+                    <hr className='solid'/>
                     <p>{description}</p>
                 </div>
             </div>
