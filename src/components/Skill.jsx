@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import Cs from '../assets/cs.svg'
-import Cpp from '../assets/c++.svg'
-import NodeJs from '../assets/nodejs.svg'
-import Python from '../assets/python.svg'
-import ReactJs from '../assets/react.svg'
+import cs from '../assets/skills/cs.svg'
+import cpp from '../assets/skills/c++.svg'
+import nodejs from '../assets/skills/nodejs.svg'
+import python from '../assets/skills/python.svg'
+import reactjs from '../assets/skills/react.svg'
 
 import '../styles/Skills.css'
 
 function Skill() {
-    const logos = [Cpp, Cs, Python, ReactJs, NodeJs]
+    const logos = [cpp, cs, python, reactjs, nodejs]
     return (
         <div className='section'>
             <h1 className='legend'>Skills</h1>
