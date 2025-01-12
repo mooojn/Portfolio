@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import ProjectCard from './ProjectCard.jsx'
 
-import pagex from '../assets/projects/page-x.png'
-import pagexLogo from '../assets/skills/react.svg'
+import pagex from '../assets/projects/pagex.png'
+import pagexLogo from '../assets/projects/pagex_logo.svg'
 import '../styles/Project.css'
 
 function Project() {
@@ -10,6 +10,7 @@ function Project() {
         image: pagex,
         logo: pagexLogo,
         name: "PageX",
+        link: "https://gitlab.com/dsa8301239/pagex",
         heading: "Developed text editor with DSA for seamless work experience",
         highlights: [
             "React.js text editor with advanced features and rich functionality.",
