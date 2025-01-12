@@ -1,8 +1,10 @@
 import { useState } from 'react'
+import GitHubButton from 'react-github-btn'
+
 import '../styles/ProjectCard.css'
 
 function ProjectCard({ info }) {
-    const { image, logo, name, heading, highlights, description } = info;
+    const { image, logo, name, link, heading, highlights, description } = info;
 
     return (
         <>
@@ -14,6 +16,9 @@ function ProjectCard({ info }) {
                     <div className='project-info'>
                         <img src={logo} alt="logo" />
                         <h3>{name}</h3>
+                        <div className='project-info-btn'>
+                            <GitHubButton href={link} data-color-scheme="dark: dark;" data-size="large">Source</GitHubButton>
+                        </div>
                     </div>
 
                     <h2>{heading}</h2>
@@ -28,7 +33,7 @@ function ProjectCard({ info }) {
 
                     </div>
 
-                    <hr className='solid'/>
+                    <hr className='solid' />
 
                     <div className='project-description'>
                         <p>{description}</p>
