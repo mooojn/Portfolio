@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import GitHubButton from 'react-github-btn'
+import gitIcon from '../assets/github-icon.png'
 
 import '../styles/ProjectCard.css'
 
@@ -17,7 +18,7 @@ function ProjectCard({ info }) {
                         <img src={logo} alt="logo" />
                         <h3>{name}</h3>
                         <div className='project-info-btn'>
-                            <GitHubButton href={link} data-color-scheme="dark: dark;" data-size="large">Source</GitHubButton>
+                            <a href={link} target='_blank'><img src={gitIcon}/>Source</a>
                         </div>
                     </div>
 

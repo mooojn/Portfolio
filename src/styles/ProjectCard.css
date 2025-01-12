@@ -9,6 +9,8 @@
 
 .project-img {
     width: 800px;
+    border: 1px solid rgb(48, 46, 46);
+    border-radius: 10px;
 }
 
 .project-content {
@@ -26,7 +28,7 @@
 }
 
 .project-info h3 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .project-info img {
@@ -35,6 +37,26 @@
 
 .project-info-btn {
     margin-left: auto; 
+}
+
+.project-info-btn a {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1e272d;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-family: Consolas;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.project-info-btn a img{
+    background: none;
+    height: 18px;
 }
 
 .project-highlights h4 {
@@ -52,7 +74,7 @@
 .project-content h2 {
     font-size: 45px;
     font-weight: 600;
-    width: 500px;
+    width: 650px;
     margin-bottom: 20px;
 }
 
