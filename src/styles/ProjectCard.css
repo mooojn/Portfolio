@@ -21,11 +21,20 @@
 .project-info {
     display: flex;
     align-items: center;
-    cursor: pointer;
+    gap: 10px;
+    width: 100%;
+}
+
+.project-info h3 {
+    font-size: 20px;
 }
 
 .project-info img {
     height: 60px;
+}
+
+.project-info-btn {
+    margin-left: auto; 
 }
 
 .project-highlights h4 {
