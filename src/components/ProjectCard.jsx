@@ -19,7 +19,7 @@ function ProjectCard({ info }) {
                     <h2>{heading}</h2>
 
                     <div className='project-highlights'>
-                        <h4>Highlights:</h4>
+                        <h4>HIGHLIGHTS:</h4>
                         <ul>
                             {highlights.map((value, index) => (
                                 <li key={index}>{value}</li>
@@ -27,9 +27,12 @@ function ProjectCard({ info }) {
                         </ul>
 
                     </div>
-                    {/* white line here then description */}
+
                     <hr className='solid'/>
-                    <p>{description}</p>
+
+                    <div className='project-description'>
+                        <p>{description}</p>
+                    </div>
                 </div>
             </div>
         </>
