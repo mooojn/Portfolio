@@ -29,7 +29,7 @@
 }
 
 .project-highlights h4 {
-    font-family: 'Consolas';
+    font-family: "Roboto Mono";
     color: #b1b0b0;
     margin-bottom: 10px;
 }
@@ -45,4 +45,15 @@
     font-weight: 600;
     width: 500px;
     margin-bottom: 20px;
+}
+
+.project-description p{
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+.project-description {
+    margin-bottom: 50px;
 }
