@@ -1,9 +1,9 @@
 .nav,
+.nav p,
 .nav-items,
 .nav-items ul,
 .nav-items li {
     background: white;
-
 }
 
 .logo {
@@ -20,6 +20,12 @@
     padding: 0 20px;
     z-index: 10;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav p {
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .nav-items {

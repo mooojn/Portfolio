@@ -7,6 +7,7 @@ function Header() {
         <>
             <div className='nav'>
                 <img src="./logo.svg" alt="logo" className='logo' />
+                <p>Munees Tariq</p>
                 <div className='nav-items'>
                     <ul>
                         <li>Skills</li>
