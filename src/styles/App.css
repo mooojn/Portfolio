@@ -5,3 +5,12 @@
     margin: 0;
     padding: 0;
 }
+
+.section {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.legend {
+    font-family: 'Roboto Mono';
+}
