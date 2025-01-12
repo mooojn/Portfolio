@@ -18,7 +18,7 @@ function Project() {
             "Hybrid Kruskal's and Prim's algorithm, cutting maze generation time by 67%.",
             "DSA concepts enhancing data access and manipulation speed by 39%."
         ],                   
-        description: "This was very nice",
+        description: "PageX is a fast and efficient word editor using data structure and algorithm concepts. The editor offers advanced features for customizing, formatting, and designing documents with ease. It also includes a maze generator that challenges users to solve complex problems and enhances problem-solving skills. The maximum maze size is 40x35 (rows x columns).",
     };
 
     return (
