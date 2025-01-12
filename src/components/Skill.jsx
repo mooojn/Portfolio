@@ -10,11 +10,11 @@ import '../styles/Skills.css'
 function Skill() {
     const logos = [Cpp, Cs, Python, ReactJs, NodeJs]
     return (
-        <div className='skills'>
-            <h1>Skills</h1>
-            <div className='skills-item'>
+        <div className='section'>
+            <h1 className='legend'>Skills</h1>
+            <div className='skill-items'>
                 {logos.map((logo, index) => (
-                    <img className='skills-logo' key={index} src={logo} alt={`logo-${index}`} />
+                    <img className='skill-logo' key={index} src={logo} alt={`logo-${index}`} />
                 ))}
             </div>
         </div>
